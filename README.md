@@ -61,6 +61,8 @@ $ sudo rmmod myled
 |11|赤色|
 |25|7セグ「0.」|
 
+![IMAGE OF LEDs](./LEDs.jpg)
+
 ## 実行
 
 bashファイルで行う場合
