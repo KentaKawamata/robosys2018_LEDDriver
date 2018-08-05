@@ -44,4 +44,4 @@ $ sudo rmmod myled
 
 https://www.youtube.com/watch?v=T-9dKwkFM8M
 
-[![IMAGE ALT TEXT HERE](https://www.youtube.com/watch?v=T-9dKwkFM8M/0.jpg)](https://www.youtube.com/watch?v=T-9dKwkFM8M)
+[![IMAGE ALT TEXT HERE](https://www.youtube.com/vi/T-9dKwkFM8M/0.jpg)](https://www.youtube.com/watch?v=T-9dKwkFM8M)
