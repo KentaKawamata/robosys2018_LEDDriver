@@ -88,22 +88,6 @@ static int __init init_mod(void){
 		const u32 mask = ~(0x7 << shift); //111を15bit分左に寄せる
         	gpio_base[index] = (gpio_base[index] & mask) | (0x1 << shift);
 	}	
-	
-	/*
-	const u32 led0 = 25;
-	const u32 led1 = 9;
-	const u32 index0 = led0/10;  //=2
-	const u32 index1 = led1/10;  //=2
-	const u32 shift0 = (led0%10)*3; //15bitに指定 
-	const u32 shift1 = (led1%10)*3; //15bitに指定 
-	const u32 mask0 = ~(0x7 << shift0); //111を15bit分左に寄せる
-	const u32 mask1 = ~(0x7 << shift1); //111を15bit分左に寄せる
-	
-	//予めメモリに割り当ててあるGPIO(ハードウェア入出力)の番地
-	//予めハードウェア入出力をメモリに割り当てることでハードウェア処理が楽
-        gpio_base[index0] = (gpio_base[index0] & mask0) | (0x1 << shift0);
-        gpio_base[index1] = (gpio_base[index1] & mask1) | (0x1 << shift1);
-	*/
 
 	retval = alloc_chrdev_region(&dev, 0, 1, "myled");
 	if(retval < 0){
