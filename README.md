@@ -20,7 +20,7 @@ Raspberry Piのimageは[齋藤篤志さんのブログ](https://www.asrobot.me/e
 デバイスドライバのコンパイルからインストールまで一括して行うbashファイル：`installDriver.sh`
 
 ```
-$ sudo bash installDriver.sh
+$ bash installDriver.sh
 ```
 
 コマンドで行う場合
